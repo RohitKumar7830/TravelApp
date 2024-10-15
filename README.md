@@ -1,3 +1,0 @@
-# Sanchari
-# Sanchari
-# sa
