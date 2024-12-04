@@ -1,0 +1,34 @@
+.output {
+    width: auto;
+    height: auto;
+    background: rgba( 255, 255, 255, 0.3 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 25px 25px;
+    margin-bottom: 3px;
+    border-radius: 7px;
+}
+
+.output .form {
+    text-align: center;
+}
+
+.output .data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+
+.output label {
+    font-weight: 600;
+    font-size: em;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

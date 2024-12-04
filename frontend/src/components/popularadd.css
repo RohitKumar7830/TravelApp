@@ -1,0 +1,28 @@
+.output {
+    width: auto;
+    height: auto;
+    background: #eee3e3;
+    padding: 25px 25px;
+    margin-bottom: 3px;
+    border-radius: 7px;
+}
+
+.output .form {
+    text-align: center;
+}
+
+.output .data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 3px;
+}
+
+.output label {
+    font-weight: 600;
+    font-size: em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
