@@ -5,7 +5,7 @@ from model import PopularDestination
 #MongoDb driver
 import motor.motor_asyncio
 
-client = motor.motor_asyncio.AsyncIOMotorClient('mongodb://localhost:27017')
+client = motor.motor_asyncio.AsyncIOMotorClient('mongodb+srv://bpscrohit:Rohit123@cluster0.rszwkl0.mongodb.net/7')
 database = client.Travel
 collection = database.travelData
 
